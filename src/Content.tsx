@@ -26,7 +26,7 @@ export default function Content() {
   return (
     <>
       <main>
-        <section><Media /></section>
+        <section>{apod !== undefined && <Media apod={apod} />}</section>
         <section>{apod !== undefined && <Details apod={apod} />}</section>
       </main>
     </>
