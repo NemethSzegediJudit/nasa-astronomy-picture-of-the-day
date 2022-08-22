@@ -5,13 +5,14 @@ type Props = { apod: Apod };
 
 export default function Media(props: Props) {
   const { apod } = props;
+  const { url, title, media_type } = apod;
 
   return (
     <div className="media">
-      {apod.media_type === 'video' ? (
-        <iframe src={apod.url} title={apod.title}></iframe>
+      {media_type === 'video' ? (
+        <iframe src={url} title={title}></iframe>
       ) : (
-        <img src={apod.url} alt={apod.title} />
+        <img src={url} alt={title} />
       )}
     </div>
   );
