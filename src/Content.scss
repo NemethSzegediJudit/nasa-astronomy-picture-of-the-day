@@ -1,9 +1,13 @@
 main {
   display: flex;
   align-items: flex-start;
+  flex-grow: 1;
+  overflow: hidden;
 
   > section {
     width: 50%;
+    height: 100%;
+
+    padding: 30px;
   }
 }
-
