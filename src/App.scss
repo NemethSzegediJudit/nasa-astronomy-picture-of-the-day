@@ -30,3 +30,19 @@
     margin-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+
+  .container {
+    padding: 20px;
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
