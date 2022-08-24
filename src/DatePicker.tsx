@@ -6,7 +6,7 @@ type Props = { onDateSelected: (date: string) => void };
 
 export default function DatePicker(props: Props) {
   const { onDateSelected } = props;
-  const [date, setDate] = useState('');
+  const [date, setDate] = useState(currentDate());
 
   const selectDate = () => {
     onDateSelected(date);
