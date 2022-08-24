@@ -10,8 +10,13 @@ export default function DatePicker(props: Props) {
 
   const selectDate = () => {
     onDateSelected(date);
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
   };
-  
+
   return (
     <div className="choose-date">
       <p>
