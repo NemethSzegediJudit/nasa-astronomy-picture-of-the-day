@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nasa-astronomy-picture-of-the-day/static/css/main.b4925449.css",
-    "main.js": "/nasa-astronomy-picture-of-the-day/static/js/main.742b06ed.js",
+    "main.css": "/nasa-astronomy-picture-of-the-day/static/css/main.f6f340b1.css",
+    "main.js": "/nasa-astronomy-picture-of-the-day/static/js/main.35e8b384.js",
     "static/js/787.4d1d2d1b.chunk.js": "/nasa-astronomy-picture-of-the-day/static/js/787.4d1d2d1b.chunk.js",
     "static/media/background.jpg": "/nasa-astronomy-picture-of-the-day/static/media/background.54d6cbfb5154ccf96c3b.jpg",
     "index.html": "/nasa-astronomy-picture-of-the-day/index.html",
-    "main.b4925449.css.map": "/nasa-astronomy-picture-of-the-day/static/css/main.b4925449.css.map",
-    "main.742b06ed.js.map": "/nasa-astronomy-picture-of-the-day/static/js/main.742b06ed.js.map",
+    "main.f6f340b1.css.map": "/nasa-astronomy-picture-of-the-day/static/css/main.f6f340b1.css.map",
+    "main.35e8b384.js.map": "/nasa-astronomy-picture-of-the-day/static/js/main.35e8b384.js.map",
     "787.4d1d2d1b.chunk.js.map": "/nasa-astronomy-picture-of-the-day/static/js/787.4d1d2d1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4925449.css",
-    "static/js/main.742b06ed.js"
+    "static/css/main.f6f340b1.css",
+    "static/js/main.35e8b384.js"
   ]
 }
