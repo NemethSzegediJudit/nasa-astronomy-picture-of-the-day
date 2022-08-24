@@ -1,7 +1,7 @@
 # **Astronomy picture of the day (APOD) – NASA**
 
 ### About
-In this webpage you can browse pictures and their details from the [NASA APOD API](https://github.com/nasa/apod-api).
+On this website you can browse pictures and their details from the [NASA APOD API](https://github.com/nasa/apod-api).
 
 ### Motivation
 Originally this project was one of my tasks in Codecool, in which I practiced the usage of fetch in VanillaJS. Later I refactored this project to learn **TypeScript** and **React**.
