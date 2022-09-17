@@ -1,3 +1,4 @@
+import Loader from './Loader';
 import Media from './Media';
 import Details from './Details';
 import './Content.scss';
@@ -16,10 +17,13 @@ const getApod = async (date: string) => {
 export default function Content() {
   const [apod, setApod] = useState<Apod>();
   const [choosenDate, setChoosenDate] = useState(currentDate());
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const updateApod = async () => {
+      setIsLoading(true);
       setApod(await getApod(choosenDate));
+      setIsLoading(false);
     };
 
     updateApod();
@@ -27,6 +31,7 @@ export default function Content() {
 
   return (
     <>
+      {isLoading === true && <Loader />}
       <main>
         <section>{apod !== undefined && <Media apod={apod} />}</section>
         <section>
